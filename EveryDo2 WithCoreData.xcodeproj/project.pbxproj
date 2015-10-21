@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064CEE5E1BD7F76000AAE949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE5D1BD7F76000AAE949 /* main.m */; };
+		064CEE611BD7F76000AAE949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE601BD7F76000AAE949 /* AppDelegate.m */; };
+		064CEE641BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE621BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodeld */; };
+		064CEE671BD7F76100AAE949 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE661BD7F76100AAE949 /* MasterViewController.m */; };
+		064CEE6A1BD7F76100AAE949 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE691BD7F76100AAE949 /* DetailViewController.m */; };
+		064CEE6D1BD7F76100AAE949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064CEE6B1BD7F76100AAE949 /* Main.storyboard */; };
+		064CEE6F1BD7F76100AAE949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064CEE6E1BD7F76100AAE949 /* Assets.xcassets */; };
+		064CEE721BD7F76100AAE949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064CEE701BD7F76100AAE949 /* LaunchScreen.storyboard */; };
+		064CEE7D1BD7F76100AAE949 /* EveryDo2_WithCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE7C1BD7F76100AAE949 /* EveryDo2_WithCoreDataTests.m */; };
+		064CEE881BD7F76100AAE949 /* EveryDo2_WithCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE871BD7F76100AAE949 /* EveryDo2_WithCoreDataUITests.m */; };
+		064CEE991BD7FACF00AAE949 /* ToDo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE961BD7FACF00AAE949 /* ToDo+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		064CEE9A1BD7FACF00AAE949 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE981BD7FACF00AAE949 /* ToDo.m */; settings = {ASSET_TAGS = (); }; };
+		064CEE9D1BD807D900AAE949 /* ToDoCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE9C1BD807D900AAE949 /* ToDoCustomCell.m */; settings = {ASSET_TAGS = (); }; };
+		064CEEA01BD80D3000AAE949 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CEE9F1BD80D3000AAE949 /* ModalViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064CEE791BD7F76100AAE949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064CEE511BD7F76000AAE949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064CEE581BD7F76000AAE949;
+			remoteInfo = "EveryDo2 WithCoreData";
+		};
+		064CEE841BD7F76100AAE949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064CEE511BD7F76000AAE949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064CEE581BD7F76000AAE949;
+			remoteInfo = "EveryDo2 WithCoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064CEE591BD7F76000AAE949 /* EveryDo2 WithCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EveryDo2 WithCoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064CEE5D1BD7F76000AAE949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		064CEE5F1BD7F76000AAE949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		064CEE601BD7F76000AAE949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		064CEE631BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EveryDo2_WithCoreData.xcdatamodel; sourceTree = "<group>"; };
+		064CEE651BD7F76100AAE949 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		064CEE661BD7F76100AAE949 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		064CEE681BD7F76100AAE949 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		064CEE691BD7F76100AAE949 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		064CEE6C1BD7F76100AAE949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		064CEE6E1BD7F76100AAE949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		064CEE711BD7F76100AAE949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		064CEE731BD7F76100AAE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064CEE781BD7F76100AAE949 /* EveryDo2 WithCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EveryDo2 WithCoreDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064CEE7C1BD7F76100AAE949 /* EveryDo2_WithCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryDo2_WithCoreDataTests.m; sourceTree = "<group>"; };
+		064CEE7E1BD7F76100AAE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064CEE831BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EveryDo2 WithCoreDataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064CEE871BD7F76100AAE949 /* EveryDo2_WithCoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryDo2_WithCoreDataUITests.m; sourceTree = "<group>"; };
+		064CEE891BD7F76100AAE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064CEE951BD7FACF00AAE949 /* ToDo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ToDo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		064CEE961BD7FACF00AAE949 /* ToDo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ToDo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		064CEE971BD7FACF00AAE949 /* ToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		064CEE981BD7FACF00AAE949 /* ToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
+		064CEE9B1BD807D900AAE949 /* ToDoCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoCustomCell.h; sourceTree = "<group>"; };
+		064CEE9C1BD807D900AAE949 /* ToDoCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoCustomCell.m; sourceTree = "<group>"; };
+		064CEE9E1BD80D3000AAE949 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		064CEE9F1BD80D3000AAE949 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064CEE561BD7F76000AAE949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064CEE751BD7F76100AAE949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064CEE801BD7F76100AAE949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064CEE501BD7F76000AAE949 = {
+			isa = PBXGroup;
+			children = (
+				064CEE5B1BD7F76000AAE949 /* EveryDo2 WithCoreData */,
+				064CEE7B1BD7F76100AAE949 /* EveryDo2 WithCoreDataTests */,
+				064CEE861BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests */,
+				064CEE5A1BD7F76000AAE949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064CEE5A1BD7F76000AAE949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064CEE591BD7F76000AAE949 /* EveryDo2 WithCoreData.app */,
+				064CEE781BD7F76100AAE949 /* EveryDo2 WithCoreDataTests.xctest */,
+				064CEE831BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064CEE5B1BD7F76000AAE949 /* EveryDo2 WithCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				064CEE5F1BD7F76000AAE949 /* AppDelegate.h */,
+				064CEE601BD7F76000AAE949 /* AppDelegate.m */,
+				064CEE651BD7F76100AAE949 /* MasterViewController.h */,
+				064CEE661BD7F76100AAE949 /* MasterViewController.m */,
+				064CEE9B1BD807D900AAE949 /* ToDoCustomCell.h */,
+				064CEE9C1BD807D900AAE949 /* ToDoCustomCell.m */,
+				064CEE681BD7F76100AAE949 /* DetailViewController.h */,
+				064CEE691BD7F76100AAE949 /* DetailViewController.m */,
+				064CEE6B1BD7F76100AAE949 /* Main.storyboard */,
+				064CEE9E1BD80D3000AAE949 /* ModalViewController.h */,
+				064CEE9F1BD80D3000AAE949 /* ModalViewController.m */,
+				064CEE6E1BD7F76100AAE949 /* Assets.xcassets */,
+				064CEE701BD7F76100AAE949 /* LaunchScreen.storyboard */,
+				064CEE731BD7F76100AAE949 /* Info.plist */,
+				064CEE621BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodeld */,
+				064CEE951BD7FACF00AAE949 /* ToDo+CoreDataProperties.h */,
+				064CEE961BD7FACF00AAE949 /* ToDo+CoreDataProperties.m */,
+				064CEE971BD7FACF00AAE949 /* ToDo.h */,
+				064CEE981BD7FACF00AAE949 /* ToDo.m */,
+				064CEE5C1BD7F76000AAE949 /* Supporting Files */,
+			);
+			path = "EveryDo2 WithCoreData";
+			sourceTree = "<group>";
+		};
+		064CEE5C1BD7F76000AAE949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				064CEE5D1BD7F76000AAE949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		064CEE7B1BD7F76100AAE949 /* EveryDo2 WithCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				064CEE7C1BD7F76100AAE949 /* EveryDo2_WithCoreDataTests.m */,
+				064CEE7E1BD7F76100AAE949 /* Info.plist */,
+			);
+			path = "EveryDo2 WithCoreDataTests";
+			sourceTree = "<group>";
+		};
+		064CEE861BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				064CEE871BD7F76100AAE949 /* EveryDo2_WithCoreDataUITests.m */,
+				064CEE891BD7F76100AAE949 /* Info.plist */,
+			);
+			path = "EveryDo2 WithCoreDataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064CEE581BD7F76000AAE949 /* EveryDo2 WithCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064CEE8C1BD7F76100AAE949 /* Build configuration list for PBXNativeTarget "EveryDo2 WithCoreData" */;
+			buildPhases = (
+				064CEE551BD7F76000AAE949 /* Sources */,
+				064CEE561BD7F76000AAE949 /* Frameworks */,
+				064CEE571BD7F76000AAE949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EveryDo2 WithCoreData";
+			productName = "EveryDo2 WithCoreData";
+			productReference = 064CEE591BD7F76000AAE949 /* EveryDo2 WithCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		064CEE771BD7F76100AAE949 /* EveryDo2 WithCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064CEE8F1BD7F76100AAE949 /* Build configuration list for PBXNativeTarget "EveryDo2 WithCoreDataTests" */;
+			buildPhases = (
+				064CEE741BD7F76100AAE949 /* Sources */,
+				064CEE751BD7F76100AAE949 /* Frameworks */,
+				064CEE761BD7F76100AAE949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064CEE7A1BD7F76100AAE949 /* PBXTargetDependency */,
+			);
+			name = "EveryDo2 WithCoreDataTests";
+			productName = "EveryDo2 WithCoreDataTests";
+			productReference = 064CEE781BD7F76100AAE949 /* EveryDo2 WithCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		064CEE821BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064CEE921BD7F76100AAE949 /* Build configuration list for PBXNativeTarget "EveryDo2 WithCoreDataUITests" */;
+			buildPhases = (
+				064CEE7F1BD7F76100AAE949 /* Sources */,
+				064CEE801BD7F76100AAE949 /* Frameworks */,
+				064CEE811BD7F76100AAE949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064CEE851BD7F76100AAE949 /* PBXTargetDependency */,
+			);
+			name = "EveryDo2 WithCoreDataUITests";
+			productName = "EveryDo2 WithCoreDataUITests";
+			productReference = 064CEE831BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064CEE511BD7F76000AAE949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Adam Goldberg";
+				TargetAttributes = {
+					064CEE581BD7F76000AAE949 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					064CEE771BD7F76100AAE949 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 064CEE581BD7F76000AAE949;
+					};
+					064CEE821BD7F76100AAE949 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 064CEE581BD7F76000AAE949;
+					};
+				};
+			};
+			buildConfigurationList = 064CEE541BD7F76000AAE949 /* Build configuration list for PBXProject "EveryDo2 WithCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064CEE501BD7F76000AAE949;
+			productRefGroup = 064CEE5A1BD7F76000AAE949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064CEE581BD7F76000AAE949 /* EveryDo2 WithCoreData */,
+				064CEE771BD7F76100AAE949 /* EveryDo2 WithCoreDataTests */,
+				064CEE821BD7F76100AAE949 /* EveryDo2 WithCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064CEE571BD7F76000AAE949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064CEE721BD7F76100AAE949 /* LaunchScreen.storyboard in Resources */,
+				064CEE6F1BD7F76100AAE949 /* Assets.xcassets in Resources */,
+				064CEE6D1BD7F76100AAE949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064CEE761BD7F76100AAE949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064CEE811BD7F76100AAE949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064CEE551BD7F76000AAE949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064CEE9A1BD7FACF00AAE949 /* ToDo.m in Sources */,
+				064CEE6A1BD7F76100AAE949 /* DetailViewController.m in Sources */,
+				064CEE671BD7F76100AAE949 /* MasterViewController.m in Sources */,
+				064CEE611BD7F76000AAE949 /* AppDelegate.m in Sources */,
+				064CEE9D1BD807D900AAE949 /* ToDoCustomCell.m in Sources */,
+				064CEEA01BD80D3000AAE949 /* ModalViewController.m in Sources */,
+				064CEE991BD7FACF00AAE949 /* ToDo+CoreDataProperties.m in Sources */,
+				064CEE641BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodeld in Sources */,
+				064CEE5E1BD7F76000AAE949 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064CEE741BD7F76100AAE949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064CEE7D1BD7F76100AAE949 /* EveryDo2_WithCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064CEE7F1BD7F76100AAE949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064CEE881BD7F76100AAE949 /* EveryDo2_WithCoreDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064CEE7A1BD7F76100AAE949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064CEE581BD7F76000AAE949 /* EveryDo2 WithCoreData */;
+			targetProxy = 064CEE791BD7F76100AAE949 /* PBXContainerItemProxy */;
+		};
+		064CEE851BD7F76100AAE949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064CEE581BD7F76000AAE949 /* EveryDo2 WithCoreData */;
+			targetProxy = 064CEE841BD7F76100AAE949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		064CEE6B1BD7F76100AAE949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064CEE6C1BD7F76100AAE949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		064CEE701BD7F76100AAE949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064CEE711BD7F76100AAE949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		064CEE8A1BD7F76100AAE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		064CEE8B1BD7F76100AAE949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064CEE8D1BD7F76100AAE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EveryDo2 WithCoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lighthouse.EveryDo2-WithCoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		064CEE8E1BD7F76100AAE949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EveryDo2 WithCoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lighthouse.EveryDo2-WithCoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		064CEE901BD7F76100AAE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "EveryDo2 WithCoreDataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lighthouse.EveryDo2-WithCoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EveryDo2 WithCoreData.app/EveryDo2 WithCoreData";
+			};
+			name = Debug;
+		};
+		064CEE911BD7F76100AAE949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "EveryDo2 WithCoreDataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lighthouse.EveryDo2-WithCoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EveryDo2 WithCoreData.app/EveryDo2 WithCoreData";
+			};
+			name = Release;
+		};
+		064CEE931BD7F76100AAE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EveryDo2 WithCoreDataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lighthouse.EveryDo2-WithCoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EveryDo2 WithCoreData";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		064CEE941BD7F76100AAE949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EveryDo2 WithCoreDataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lighthouse.EveryDo2-WithCoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EveryDo2 WithCoreData";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064CEE541BD7F76000AAE949 /* Build configuration list for PBXProject "EveryDo2 WithCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064CEE8A1BD7F76100AAE949 /* Debug */,
+				064CEE8B1BD7F76100AAE949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064CEE8C1BD7F76100AAE949 /* Build configuration list for PBXNativeTarget "EveryDo2 WithCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064CEE8D1BD7F76100AAE949 /* Debug */,
+				064CEE8E1BD7F76100AAE949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		064CEE8F1BD7F76100AAE949 /* Build configuration list for PBXNativeTarget "EveryDo2 WithCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064CEE901BD7F76100AAE949 /* Debug */,
+				064CEE911BD7F76100AAE949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		064CEE921BD7F76100AAE949 /* Build configuration list for PBXNativeTarget "EveryDo2 WithCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064CEE931BD7F76100AAE949 /* Debug */,
+				064CEE941BD7F76100AAE949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		064CEE621BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				064CEE631BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodel */,
+			);
+			currentVersion = 064CEE631BD7F76100AAE949 /* EveryDo2_WithCoreData.xcdatamodel */;
+			path = EveryDo2_WithCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 064CEE511BD7F76000AAE949 /* Project object */;
+}
