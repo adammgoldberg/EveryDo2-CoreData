@@ -12,6 +12,13 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    UISwipeGestureRecognizer *swipeCell = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeAwayToDo:)];
+    [self addGestureRecognizer:swipeCell];
+    
+}
+
+-(void)swipeAwayToDo:(UISwipeGestureRecognizer*)swiped {
+    [self.delegate cellSwipedAway:self];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class ToDoCustomCell;
+
+@protocol ToDoCustomCellDelegate <NSObject>
+
+-(void)cellSwipedAway:(ToDoCustomCell*)theCell;
+
+@end
+
+
 @interface ToDoCustomCell : UITableViewCell
+
+@property (nonatomic, weak) id <ToDoCustomCellDelegate> delegate;
 
 @property (strong, nonatomic) IBOutlet UILabel *toDoTitle;
 

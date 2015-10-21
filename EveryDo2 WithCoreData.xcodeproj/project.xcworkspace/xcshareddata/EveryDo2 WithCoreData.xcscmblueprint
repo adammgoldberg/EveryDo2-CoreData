@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AE46ECAD9E31E453D1E9DF34DA2BAE1EBCB0540A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5AF1E91BDFEE2495E45B8B6FBF2D5170F6AE191A" : 0,
+    "AE46ECAD9E31E453D1E9DF34DA2BAE1EBCB0540A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9BEDE5C4-CE12-49F9-AFB7-2CF0C56700C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5AF1E91BDFEE2495E45B8B6FBF2D5170F6AE191A" : "",
+    "AE46ECAD9E31E453D1E9DF34DA2BAE1EBCB0540A" : "EveryDo2%20WithCoreData\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EveryDo2 WithCoreData",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EveryDo2 WithCoreData.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adammgoldberg\/Pizza.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AF1E91BDFEE2495E45B8B6FBF2D5170F6AE191A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adammgoldberg\/EveryDo2-CoreData.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE46ECAD9E31E453D1E9DF34DA2BAE1EBCB0540A"
+    }
+  ]
+}

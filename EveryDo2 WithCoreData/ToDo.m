@@ -12,18 +12,18 @@
 
 // Insert code here to add functionality to your managed object subclass
 
-- (instancetype)initWithTitle:(NSString*)title description:(NSString*)description priority:(NSInteger)priority inMOC:(NSManagedObjectContext*)moc;
-{
-    
-    self = [super initWithEntity:[NSEntityDescription entityForName:@"ToDo" inManagedObjectContext:moc] insertIntoManagedObjectContext:moc];
-    if (self) {
-        self.itemTitle = title;
-        self.itemDescription = description;
-        self.priorityNumber = priority;
-        self.completedIndicator = NO;
-    }
-    return self;
-}
+//- (instancetype)initWithTitle:(NSString*)title description:(NSString*)description priority:(NSInteger)priority inMOC:(NSManagedObjectContext*)moc;
+//{
+//    
+//    self = [super initWithEntity:[NSEntityDescription entityForName:@"ToDo" inManagedObjectContext:moc] insertIntoManagedObjectContext:moc];
+//    if (self) {
+//        self.itemTitle = title;
+//        self.itemDescription = description;
+//        self.priorityNumber = priority;
+//        self.completedIndicator = NO;
+//    }
+//    return self;
+//}
 
 
 

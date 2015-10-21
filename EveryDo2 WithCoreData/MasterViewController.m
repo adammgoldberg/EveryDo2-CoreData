@@ -13,7 +13,7 @@
 #import "ToDoCustomCell.h"
 #import "ModalViewController.h"
 
-@interface MasterViewController ()
+@interface MasterViewController () <ToDoCustomCellDelegate>
 
 @end
 
@@ -23,7 +23,12 @@
 
     
     
-
+-(void)cellSwipedAway:(ToDoCustomCell*)theCell {
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:theCell];
+    ToDo *selectedToDo = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    selectedToDo.completedIndicator = !selectedToDo.completedIndicator;
+    [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
 
 
 
@@ -144,11 +149,63 @@
     }
 }
 
+
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    ToDoCell *toDoCell = [tableView dequeueReusableCellWithIdentifier:@"ToDoCell" forIndexPath:indexPath];
+//    toDoCell.delegate = self;
+//    ToDo *item = self.objects[indexPath.row];
+//    
+//    if (item.completedIndicator == YES) {
+//        
+//        NSAttributedString *strikethroughTitle = [[NSAttributedString alloc] initWithString:item.itemTitle attributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle)}];
+//        
+//        NSAttributedString *strikethroughDescription = [[NSAttributedString alloc] initWithString:item.itemDescription attributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle)}];
+//        
+//        NSString *priorityString = [NSString stringWithFormat:@"%ld", item.priorityNumber];
+//        
+//        NSAttributedString *strikethroughPriority = [[NSAttributedString alloc] initWithString:priorityString attributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle)}];
+//        
+//        toDoCell.toDoTitle.attributedText = strikethroughTitle;
+//        toDoCell.preview.attributedText = strikethroughDescription;
+//        toDoCell.priority.attributedText = strikethroughPriority;
+//        
+//    } else {
+//        toDoCell.preview.text = item.itemDescription;
+//        toDoCell.toDoTitle.text = item.itemTitle;
+//        toDoCell.priority.text = [NSString stringWithFormat:@"%ld", item.priorityNumber];
+//    }
+//    
+//    return toDoCell;
+//}
+
+
+
 - (void)configureCell:(ToDoCustomCell *)cell atIndexPath:(NSIndexPath *)indexPath {
     ToDo *aToDo = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.toDoTitle.text = aToDo.itemTitle;
-    cell.toDoPreview.text = aToDo.itemDescription;
-    cell.toDoPriority.text = [NSString stringWithFormat:@"%ld", aToDo.priorityNumber];
+    
+    cell.delegate = self;
+    
+    if (aToDo.completedIndicator == YES) {
+        NSAttributedString *strikethroughTitle = [[NSAttributedString alloc] initWithString:aToDo.itemTitle attributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle)}];
+        
+                NSAttributedString *strikethroughDescription = [[NSAttributedString alloc] initWithString:aToDo.itemDescription attributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle)}];
+        
+                NSString *priorityString = [NSString stringWithFormat:@"%ld", aToDo.priorityNumber];
+        
+                NSAttributedString *strikethroughPriority = [[NSAttributedString alloc] initWithString:priorityString attributes:@{NSStrikethroughStyleAttributeName: @(NSUnderlineStyleSingle)}];
+        
+                cell.toDoTitle.attributedText = strikethroughTitle;
+                cell.toDoPreview.attributedText = strikethroughDescription;
+                cell.toDoPriority.attributedText = strikethroughPriority;
+        
+    } else {
+        cell.toDoTitle.text = aToDo.itemTitle;
+        cell.toDoPreview.text = aToDo.itemDescription;
+        cell.toDoPriority.text = [NSString stringWithFormat:@"%ld", aToDo.priorityNumber];
+    }
+    
+    
+
     
    
     
